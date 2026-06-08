@@ -22,13 +22,26 @@
 
 - https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/ru.txt
 
-### Block Lists (известные заблокированные IP-адреса из базы Antifilter)
+### Block Lists (известные заблокированные IP-адреса из баз Antifilter)
 
-- https://antifilter.download/list/ip.lst
-- https://antifilter.download/list/ipresolve.lst
-- https://antifilter.download/list/allyouneed.lst
-- https://community.antifilter.download/list/community.lst
+  **antifilter.download**
 
+  - https://antifilter.download/list/ip.lst
+  - https://antifilter.download/list/ipresolve.lst
+  - https://antifilter.download/list/allyouneed.lst
+
+  **community.antifilter.download**
+
+  - https://community.antifilter.download/list/community.lst
+
+  **antifilter.network**
+  
+  - https://antifilter.network/download/ip.lst
+  - https://antifilter.network/download/ipsmart.lst
+  - https://antifilter.network/download/ipsum.lst
+  - https://antifilter.network/download/subnet.lst
+
+Список https://antifilter.network/download/ip6.lst исключен из обработки для IPv6. Он содержит чуть более 100 единичных записей с маской `/128`, что увеличивает размер финальной таблицы почти вдвое при минимальной практической пользе. Поскольку другие агрегированные базы блокировок IPv6 на данный момент отсутствуют, файл `ru-blocked6.txt` будет оставаться пустым. Это не критично, так как поддержка и реальное использование IPv6 у российских провайдеров всё еще находятся на крайне низком уровне.
 
 ## 📁 Выходные файлы
 
