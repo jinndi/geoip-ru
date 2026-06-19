@@ -1,0 +1,7 @@
+sing-box-*-linux-amd64.tar.gz*
+sing-box-*-linux-amd64/
+data/*.json
+*.json
+__pycache__/
+.venv/
+venv/

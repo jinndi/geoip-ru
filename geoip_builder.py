@@ -196,7 +196,7 @@ def compile_srs(txt_files, output_srs_path):
   
   # Формируем структуру для sing-box
   rule_set_data = {
-    "version": 3,
+    "version": 4,
     "rules": [
       {
         "ip_cidr": ip_list
@@ -213,6 +213,8 @@ def compile_srs(txt_files, output_srs_path):
   try:
     subprocess.run([ "sing-box", "rule-set", "compile", temp_json, "-o", output_srs_path ], check=True)
     print(f"Успешно скомпилировано: {output_srs_path}")
+    if os.path.exists(temp_json):
+      os.remove(temp_json)
   except FileNotFoundError:
     print("Ошибка: Утилита sing-box не найдена в системе/PATH. JSON сохранен.")
   except subprocess.CalledProcessError as e:
