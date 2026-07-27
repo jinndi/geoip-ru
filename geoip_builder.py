@@ -196,7 +196,7 @@ def compile_srs(txt_files, output_srs_path):
   
   # Формируем структуру для sing-box
   rule_set_data = {
-    "version": 4,
+    "version": 3,
     "rules": [
       {
         "ip_cidr": ip_list
