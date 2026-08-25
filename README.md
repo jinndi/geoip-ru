@@ -57,12 +57,6 @@
   - https://antifilter.network/download/ipsum.lst
   - https://antifilter.network/download/subnet.lst
 
-  **OpenCCK**
-
-  - https://iplist.opencck.org/?format=text&data=cidr4&group=ai&group=anime&group=art&group=casino&group=discord&group=education&group=finance&group=games&group=hosting&group=jetbrains&group=messengers&group=music&group=news&group=porn&group=shop&group=socials&group=tools&group=torrent&group=video&group=youtube
-
-  - https://iplist.opencck.org/?format=text&data=cidr6&group=ai&group=anime&group=art&group=casino&group=discord&group=education&group=finance&group=games&group=hosting&group=jetbrains&group=messengers&group=music&group=news&group=porn&group=shop&group=socials&group=tools&group=torrent&group=video&group=youtube
-
 ## 📁 Выходные файлы
 
 ```
